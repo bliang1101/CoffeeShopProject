@@ -155,3 +155,45 @@ img {
     height: 500px;
     object-fit: cover;
 }
+
+.container-content{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 25px;
+    font-family: 'Marcellus', sans-serif;
+}
+
+.container-content h2{
+    font-family: 'Marcellus', sans-serif;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.container-content p, form{
+    padding: 10px;
+}
+
+input[type="email"]{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d8d4d4; /* or any color matching your theme */
+    color: rgb(71, 70, 70);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="email"]:hover {
+    border-color: gray;
+}
