@@ -29,19 +29,7 @@ function resetInterval() {
     clearInterval(interval)
     interval = setInterval(run, 5000)
 }
-/*
-rightBtn.addEventListener('click', () => {
-    idx++
-    changeImage()
-    resetInterval()
-})
 
-leftBtn.addEventListener('click', () => {
-    idx--
-    changeImage()
-    resetInterval()
-})
-*/
 function fixNav(){
     if(window.scrollY > nav.offsetHeight + 150){
         nav.classList.add('active');
