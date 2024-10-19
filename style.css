@@ -4,11 +4,11 @@
     padding: 0;
 }
 
-
 body{
     font-family: 'Open Sans', sans-serif;
     color:#222;
     padding-bottom:50px;
+    background-color:#343a40;
 }
 
 .container{
@@ -60,7 +60,7 @@ body{
 }
 
 .nav a:hover {
-    color:#c0392b;
+    color:#6c757d;
     font-weight: bold;
 }
 
@@ -161,16 +161,21 @@ img {
     margin-top: 10px;
     padding: 25px;
     font-family: 'Marcellus', sans-serif;
+    color:#f8f9fa;
 }
 
 .container-content h2{
-    font-family: 'Marcellus', sans-serif;
-    margin-bottom: 15px;
-    padding: 15px;
+    font-family: "Century Gothic", sans-serif;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
 .container-content p, form{
     padding: 10px;
+}
+
+.container-content form{
+    margin-top: 5px;
 }
 
 input[type="email"]{
