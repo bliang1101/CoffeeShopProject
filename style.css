@@ -132,23 +132,6 @@ body{
     justify-content: space-between;
 }
 
-.btn{
-    background-color: rgb(3, 61, 11);
-    color:white;
-    border:none;
-    padding: 0.5rem;
-    cursor: pointer;
-    width: 49.5%;
-}
-
-.btn:hover{
-    opacity: 0.9;
-}
-
-.btn:focus{
-    outline:none;
-}
-
 img {
     width: 500px;
     height: 500px;
