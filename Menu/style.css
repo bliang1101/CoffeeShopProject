@@ -1,5 +1,5 @@
 body{
-    background-image: url('pexels-gilly-topicha-152672651-10779684.jpg')
+    background-image: url('pexels-gilly-topicha-152672651-10779684_CSCI355.jpg')
 }
 
 
@@ -14,8 +14,15 @@ body{
 
 
 h1{     font-family: 'Brush Script MT', cursive; 
-        text-align: center;
-        font-size: 200px;
+        margin-left: 1950px;
+        font-size: 160px;
+        position: relative;
+        top: -30px;
+        background: rgb(198, 92, 0);
+        border-style: outset;
+        border-radius: 50px;
+        display: inline-block;
+        
 
        
         
@@ -23,16 +30,29 @@ h1{     font-family: 'Brush Script MT', cursive;
 
 
 h2, p{
-    font-size: 80px;
+    font-size: 60px;
     text-align: left;
     font-family: 'Marcellus', sans-serif;
-    border-style: none;
+    border-style: outset;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    background: rgb(198, 92, 0);
+
+    
+    
+  
+
     
 }
 
 .drinks{
     text-align: left;
     font-size: 40px;
+    position:relative;
+    top: -400px;
+    left: -300px;
 }
 
 ul{
@@ -44,7 +64,7 @@ ul{
 .snacks{
     text-align: left;
     font-size: 40px;
-   
-}
-    text-align: center;
+    position:relative;
+    top: -400px;
+    left: -300px;
 }
