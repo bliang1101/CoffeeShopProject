@@ -11,6 +11,14 @@ body{
     background-color:#343a40;
 }
 
+footer{
+    color:#979da3;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
