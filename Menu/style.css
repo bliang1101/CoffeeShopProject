@@ -1,20 +1,16 @@
-body{
-    background-image: url('pexels-gilly-topicha-152672651-10779684_CSCI355.jpg')
-}
-
-
 
 
 body{
-    background-image: url('heart.JPG')
+    background-image: url('https://images.pexels.com/photos/10779684/pexels-photo-10779684.jpeg?auto=compress&cs=tinysrgb&w=600.jpg');
+    background-position: center;
+    background-repeat:unset;
+
 }
-
-
 .coffee-image{
     width: 400px;
-    height: 200px;
+    height: 250px;
     position: relative;
-    right: -700px;
+    right: -100px;
     top: 40px;
     border-style: solid;
     border-radius: 500px;
@@ -24,8 +20,8 @@ body{
     width: 400px;
     height: 300px;
     position: relative;
-    right: -300px;
-    top: 700px;
+    right: -500px;
+    top: 650px;
     border-style: solid;
     border-radius: 500px;
 }
@@ -43,7 +39,7 @@ h1{     font-family: 'Brush Script MT', cursive;
         margin-left: 1950px;
         font-size: 160px;
         position: relative;
-        top: -200px;
+        top: -300px;
         
         
     
