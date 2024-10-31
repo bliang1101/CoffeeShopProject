@@ -1,21 +1,38 @@
 body{
-    background-image: url('https://i.etsystatic.com/15433923/r/il/1162ff/1238580410/il_794xN.1238580410_ps63.jpg')
+    background-image: url('pexels-gilly-topicha-152672651-10779684.jpg')
 }
 
+
+
+
 .menu{
-    background-color: azure;
+    background-color: transparent;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
-h1, h2, p{
-    text-align: center;
+
+h1{     font-family: 'Brush Script MT', cursive; 
+        text-align: center;
+        font-size: 200px;
+
+       
+        
+}
+
+
+h2, p{
+    font-size: 80px;
+    text-align: left;
     font-family: 'Marcellus', sans-serif;
+    border-style: none;
+    
 }
 
 .drinks{
-    text-align: center;
+    text-align: left;
+    font-size: 40px;
 }
 
 ul{
@@ -25,5 +42,9 @@ ul{
 }
 
 .snacks{
+    text-align: left;
+    font-size: 40px;
+   
+}
     text-align: center;
 }
