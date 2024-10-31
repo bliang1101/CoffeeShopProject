@@ -5,6 +5,32 @@ body{
 
 
 
+body{
+    background-image: url('heart.JPG')
+}
+
+
+.coffee-image{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    right: -700px;
+    top: 40px;
+    border-style: solid;
+    border-radius: 500px;
+}
+
+.snacks-image{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    right: -300px;
+    top: 700px;
+    border-style: solid;
+    border-radius: 500px;
+}
+
+
 .menu{
     background-color: transparent;
     width: 80%;
@@ -17,11 +43,10 @@ h1{     font-family: 'Brush Script MT', cursive;
         margin-left: 1950px;
         font-size: 160px;
         position: relative;
-        top: -30px;
-        background: rgb(198, 92, 0);
-        border-style: outset;
-        border-radius: 50px;
-        display: inline-block;
+        top: -200px;
+        
+        
+    
         
 
        
@@ -38,6 +63,7 @@ h2, p{
     display: inline-block;
     padding: 10px;
     position: relative;
+    top: -50px;
     background: rgb(198, 92, 0);
 
     
@@ -51,7 +77,7 @@ h2, p{
     text-align: left;
     font-size: 40px;
     position:relative;
-    top: -400px;
+    top: -530px;
     left: -300px;
 }
 
@@ -65,6 +91,6 @@ ul{
     text-align: left;
     font-size: 40px;
     position:relative;
-    top: -400px;
+    top: -430px;
     left: -300px;
 }
