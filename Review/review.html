@@ -6,6 +6,43 @@
             <title>Review</title>
         </head>
         <body>
-            
+            <h1>Submit a Review</h1>
+            <form>
+                <div>
+                    <label for="fname">First Name: </label><br>
+                    <input type="text" id="fname"><br>
+                    <label for="lname">Last Name: </label><br>
+                    <input type="text" id="lname"><br>
+                </div>
+                <div>
+                    <label for="email">Email Address: </label><br>
+                    <input type="email" id="email"><br>
+                </div>
+                <div>
+                    <p>Rating out of 5 Stars: </p>
+                    <input type="radio" name="rating" value="1" id="1star">
+                    <label for="1star">1</label>
+
+                    <input type="radio" name="rating" value="2" id="2star">
+                    <label for="2star">2</label>
+
+                    <input type="radio" name="rating" value="3" id="3star">
+                    <label for="3star">3</label>
+
+                    <input type="radio" name="rating" value="4" id="4star">
+                    <label for="4star">4</label>
+
+                    <input type="radio" name="rating" value="5" id="5star">
+                    <label for="5star">5</label>
+                </div>
+                <div>
+                    <br>
+                    <label for="review">Review: </label><br>
+                    <textarea id="review" name="review" rows="10" cols="40" placeholder="Tell us your thoughts"></textarea><br>
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
         </body>
     </html>
