@@ -1,46 +1,149 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <meta charset="UTF-8" />
-            <link rel="stylesheet" href="style.css"/>
-            <title>Coffee Essence Menu</title>
-        </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css"/> 
+    <title>Coffee Essence Menu</title>
+</head>
 
-        <body>
-            <img src="https://images.unsplash.com/photo-1578203657036-746e6c4eb3b1?q.jpg"  alt="coffee" class = "snacks-image">
-            <img src= "https://images.unsplash.com/photo-1486122151631-4b5aaa3ac70d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt = "Coffee" class = "coffee-image" > 
-            
-            <div class="menu">
-                <header>
-                    <h1>Coffee Essence
-                        
-                    </h1>
-                    
-                </header>
-                <section class="drinks">
-                    <h2>Coffee
-                        
-                    </h2>
-                    <ul>
-                        <li>Hot Coffee</li>
-    
-                        <li>Americano</li>
-    
-                        <li>Latte</li>
-    
-                        <li>Cappuccino</li>
-                        
-                    </ul>
-                </section>
-                <section class="snacks">
-                    <h2>Snacks</h2>
-                    <ul>
-                        <li>Croissant</li>
-                        <li>Muffin</li>
-                        <li>Bagel</li>
-                        <li>Oatmeal</li>
-                    </ul>
-                </section>
-            </div>
+<body>
+    <header>
+        <h1 class="title">Coffee Essence</h1>
+        <nav>
+            <ul>
+                <li><a href="#coffee">Coffee Menu</a></li>
+                <li><a href="#snacks">Snacks</a></li>
+                <li><a href="#order">Order Online</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="menu">
+        <section class="table-section" id="coffee">
+            <h2>Coffee Menu</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Latte</td>
+                        <td>$4.00</td>
+                    </tr>
+                    <tr>
+                        <td>Cappuccino</td>
+                        <td>$3.50</td>
+                    </tr>
+                    <tr>
+                        <td>Iced Coffee</td>
+                        <td>$3.50</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Description</h3>
+            <ul>
+                <li>
+                    <strong>Latte:</strong> Creamy steamed milk combined with espresso for a velvety texture.
+                </li>
+                <li>
+                    <strong>Cappuccino:</strong> Equal parts espresso, steamed milk, and froth for a classic taste.
+                    <img src="https://images.unsplash.com/photo-1495774856032-8b90bbb32b32?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cappuccino" width="50" style="vertical-align: middle;" />
+                </li>
+                <li>
+                    <strong>Iced Coffee:</strong> Chilled brewed coffee served over ice, refreshing and bold.
+                </li>
+            </ul>
+        </section>
+
+        <section class="table-section" id="snacks">
+            <h2>Snacks Menu</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Croissant</td>
+                        <td>$2.50</td>
+                    </tr>
+                    <tr>
+                        <td>Muffin</td>
+                        <td>$2.00</td>
+                    </tr>
+                    <tr>
+                        <td>Bagel</td>
+                        <td>$1.75</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Description</h3>
+            <ul>
+                <li>
+                    <strong>Croissant:</strong> Flaky and buttery pastry, perfect for breakfast.
+                </li>
+                <li>
+                    <strong>Muffin:</strong> Soft and sweet, available in various flavors like blueberry and chocolate chip.
+                    <img src="https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Muffin" width="50" style="vertical-align: middle;" />
+                </li>
+                <li>
+                    <strong>Bagel:</strong> Chewy and delicious, served plain or with cream cheese.
+                </li>
+            </ul>
+        </section>
+
+        <section id="order">
+            <h3>Order Online</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <fieldset>
+                    <legend>Choose your coffee:</legend>
+                    <input type="radio" id="latte" name="coffee" value="Latte">
+                    <label for="latte">Latte</label><br>
+                    <input type="radio" id="cappuccino" name="coffee" value="Cappuccino">
+                    <label for="cappuccino">Cappuccino</label><br>
+                    <input type="radio" id="iced-coffee" name="coffee" value="Iced Coffee">
+                    <label for="iced-coffee">Iced Coffee</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Choose your snack:</legend>
+                    <input type="checkbox" id="croissant" name="snacks" value="Croissant">
+                    <label for="croissant">Croissant</label><br>
+                    <input type="checkbox" id="muffin" name="snacks" value="Muffin">
+                    <label for="muffin">Muffin</label><br>
+                    <input type="checkbox" id="bagel" name="snacks" value="Bagel">
+                    <label for="bagel">Bagel</label><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Extras:</legend>
+                    <input type="checkbox" id="syrup" name="extras" value="Syrup">
+                    <label for="syrup">Syrup</label><br>
+                    <input type="checkbox" id="whipped-cream" name="extras" value="Whipped Cream">
+                    <label for="whipped-cream">Whipped Cream</label><br>
+                </fieldset>
+
+                <input type="submit" value="Place Order">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Coffee Essence. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
         </body>
     </html>
