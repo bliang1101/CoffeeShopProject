@@ -1,92 +1,145 @@
 
-
-body{
-    background-image: url('https://images.pexels.com/photos/10779684/pexels-photo-10779684.jpeg?auto=compress&cs=tinysrgb&w=600.jpg');
-    background-position:left;
-    background-repeat:unset;
-
-}
-.coffee-image{
-    width: 400px;
-    height: 250px;
-    position: relative;
-    right: -100px;
-    top: 40px;
-    border-style: solid;
-    border-radius: 500px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.snacks-image{
-    width: 400px;
-    height: 300px;
-    position: relative;
-    right: -500px;
-    top: 650px;
-    border-style: solid;
-    border-radius: 500px;
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
 }
 
+header {
+    background-color: #6f4c3e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
 
-.menu{
-    background-color: transparent;
+.title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+.menu {
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
 }
 
-
-h1{     font-family: 'Brush Script MT', cursive; 
-        margin-left: 1950px;
-        font-size: 160px;
-        position: relative;
-        top: -300px;
-        
-        
-    
-        
-
-       
-        
+.table-section {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 20px;
 }
 
+h2 {
+    border-bottom: 2px solid #6f4c3e;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
 
-h2, p{
-    font-size: 60px;
-    text-align: left;
-    font-family: 'Marcellus', sans-serif;
-    border-style: outset;
-    border-radius: 50px;
-    display: inline-block;
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
     padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2e8d5;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #ffe4b5;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+ul {
+    margin: 15px 0;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], 
+input[type="radio"], 
+input[type="checkbox"] {
+    margin: 10px 0;
+}
+
+input[type="submit"] {
+    background-color: #6f4c3e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #5a3c32;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #6f4c3e;
+    color: white;
     position: relative;
-    top: -50px;
-    background: rgb(198, 92, 0);
-
-    
-    
-  
-
-    
+    bottom: 0;
+    width: 100%;
 }
 
-.drinks{
-    text-align: left;
-    font-size: 40px;
-    position:relative;
-    top: -530px;
-    left: -300px;
-}
 
-ul{
-    list-style-type: none;
-    justify-content: center;
-    padding: 3px;
-}
-
-.snacks{
-    text-align: left;
-    font-size: 40px;
-    position:relative;
-    top: -430px;
-    left: -300px;
+.table-section img {
+    margin-left: 50px; 
+    vertical-align: middle; 
+    width: 100px; 
+    height: auto; 
+    border-radius: 10px; 
 }
