@@ -1,0 +1,210 @@
+/* Nav Styling */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    position:fixed;
+    background-color:#222;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 0.3s ease-in-out;
+}
+.nav ul{
+    display:flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav a{
+    color:#fff;
+    text-decoration:none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav.active{
+    background-color: #343a40;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav.active a{
+    color:#f8f9fa;
+}
+
+.nav.active .container{
+    padding: 10px 0;
+}
+
+.nav a:hover {
+    color:#6c757d;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3e5d9; /* Light coffee color */
+  color: #3e2723; /* Dark brown */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom:50px;
+}
+
+
+/* Form Styling */
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 600px;
+  text-align: left;
+  margin-top: 80px;
+}
+
+form div {
+  margin-bottom: 1em;
+
+}
+
+form label {
+  color: #6d4c41; /* Medium brown */
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #d7ccc8;
+  border-radius: 5px;
+  background-color: #fff3e0; /* Light beige */
+  color: #5d4037;
+  font-size: 1em;
+  outline: none;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+/* Radio Buttons Styling */
+form p {
+  color: #5d4037;
+  font-weight: bold;
+}
+
+/* Hide radio buttons */
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+/* Star labels styling */
+.star-rating label {
+    font-size: 2em;  /* Adjusts size of stars */
+    color: #ccc;     /* Default star color */
+    cursor: pointer; /* Pointer on hover */
+    transition: color 0.2s ease-in-out; /* Smooth color transition */
+}
+
+/* Hover effect for stars (right to left) */
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: #f5c518; /* Highlight color on hover */
+}
+
+/* Selected stars */
+.star-rating input[type="radio"]:checked + label {
+    color: #f5c518; /* Highlight color for selected stars */
+}
+
+/* When selecting stars, highlight the selected and all previous stars */
+.star-rating input[type="radio"]:checked ~ label {
+    color: #f5c518; /* Highlight color for all selected stars */
+}
+
+/* Submit Button */
+form input[type="submit"] {
+  background-color: #343a40; /* same as nav */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+form input[type="submit"]:hover {
+  background-color: #6c757d;
+}
+
+/* Review Section Styling
+ #reviewsSection {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f3e9; /* Light coffee cream color 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#reviewsSection h2 {
+    font-family: 'Georgia', serif;
+    color: #6b4f4f; /* Dark coffee color 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.review-entry {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border-left: 5px solid #6b4f4f; /* Left accent color 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review-entry h3 {
+    font-size: 1.2em;
+    color: #6b4f4f;
+    margin-bottom: 8px;
+}
+
+.review-entry p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.review-entry small {
+    font-size: 0.9em;
+    color: #7a7a7a;
+} 
+
+*/
