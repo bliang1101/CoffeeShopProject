@@ -12,10 +12,12 @@ Frontend: HTML, CSS, JavaScript
 The website is built entirely using standard web technologies to ensure a smooth, user-friendly experience.
 
 Installation and Setup:
+
 To run this project locally -
-1. Open the index.html file in your preferred browser.
-2. Ensure all linked assets (CSS, JS, images) are in the correct file structure.
-3. No additional dependencies are required for setup.
+1. Clone the repository.
+2. Navigate to the Project Directory
+3. Open the index.html file in your preferred browser.
+4. Ensure all linked assets (CSS, JS, images) are in the correct file structure.
 
 Usage Guide:
 Browse Products: Explore a range of coffee products.
