@@ -143,3 +143,31 @@ footer {
     height: auto; 
     border-radius: 10px; 
 }
+
+/* Filter Input Styling */
+.filter-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  /* Toggle Button Styling */
+  .toggle-button {
+    background-color: #6f4c3e;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .toggle-button:hover {
+    background-color: #5a3c32;
+  }
+  
