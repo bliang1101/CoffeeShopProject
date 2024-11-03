@@ -144,7 +144,7 @@ footer {
     border-radius: 10px; 
 }
 
-/* Filter Input Styling */
+
 .filter-input {
     width: 100%;
     padding: 10px;
@@ -154,7 +154,7 @@ footer {
     font-size: 1em;
   }
   
-  /* Toggle Button Styling */
+  
   .toggle-button {
     background-color: #6f4c3e;
     color: white;
