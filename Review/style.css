@@ -60,13 +60,13 @@
 
 /* General Styling */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f3e5d9; /* Light coffee color */
-  color: #3e2723; /* Dark brown */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom:50px;
+    font-family: Arial, sans-serif;
+    background-color: #f3e5d9; /* Light coffee color */
+    color: #3e2723; /* Dark brown */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:50px;
 }
 
 
@@ -82,31 +82,35 @@ form {
   margin-top: 80px;
 }
 
+#fname{
+    margin-bottom: 1em;
+}
+
 form div {
-  margin-bottom: 1em;
+    margin-bottom: 1em;
 
 }
 
 form label {
-  color: #6d4c41; /* Medium brown */
-  font-weight: bold;
+    color: #6d4c41; /* Medium brown */
+    font-weight: bold;
 }
 
 form input,
 form textarea {
-  width: 100%;
-  padding: 12px;
-  margin-top: 5px;
-  border: 1px solid #d7ccc8;
-  border-radius: 5px;
-  background-color: #fff3e0; /* Light beige */
-  color: #5d4037;
-  font-size: 1em;
-  outline: none;
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #d7ccc8;
+    border-radius: 5px;
+    background-color: #fff3e0; /* Light beige */
+    color: #5d4037;
+    font-size: 1em;
+    outline: none;
 }
 
 form textarea {
-  resize: vertical;
+    resize: vertical;
 }
 
 /* Star labels styling */
@@ -118,24 +122,24 @@ form textarea {
 }
 
 #star-text{
-	color: #5d4037;
-	font-weight: bold;
-	font-size: 1em;
+    color: #5d4037;
+    font-weight: bold;
+    font-size: 1em;
 	
 }
 .star-rating input[type="radio"] {
-	display: none; /* Hides the radio buttons */
+    display: none; /* Hides the radio buttons */
 }
 
 .star-rating {
-	display: flex; /* Aligns items in a row */
-	direction: rtl; /* Ensures stars display from right to left (5 to 1) */
+    display: flex; /* Aligns items in a row */
+    direction: rtl; /* Ensures stars display from right to left (5 to 1) */
 }
 
 
 /* Base styling for star labels */
 .star-rating label {
-	display: inline-block;
+    display: inline-block;
     font-size: 2em;
     color: gray; /* Default star color */
     cursor: pointer;
@@ -155,25 +159,25 @@ form textarea {
 
 /* Submit Button */
 form input[type="submit"] {
-	background-color: #343a40; /* same as nav */
-	color: white;
-	border: none;
-	padding: 12px 24px;
-	border-radius: 5px;
-	font-size: 1.1em;
-	cursor: pointer;
-	transition: background-color 0.3s ease;
-	width: 100%;
+    background-color: #343a40; /* same as nav */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
 }
 
 form input[type="submit"]:hover {
-	background-color: #6d4c41; /* brown */
+    background-color: #6d4c41; /* brown */
 }
 
 /* Responsive Styling */
 @media (max-width: 480px) {
   .nav .container {
-	flex-direction: column;
+    flex-direction: column;
     align-items: center;
   }
   
