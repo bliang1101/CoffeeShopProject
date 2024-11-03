@@ -102,7 +102,7 @@ form textarea {
     border: 1px solid #d7ccc8;
     border-radius: 5px;
     background-color: #fff3e0; /* Light beige */
-    color: ##3e2723; /* Dark brown */
+    color: #3e2723; /* Dark brown */
     font-size: 1em;
     outline: none;
 }
@@ -120,7 +120,7 @@ form textarea {
 }
 
 #star-text{
-    color: ##3e2723; /* Dark brown */
+    color: #3e2723; /* Dark brown */
     font-weight: bold;
 }
 .star-rating input[type="radio"] {
@@ -178,3 +178,4 @@ form input[type="submit"]:hover {
   form {
     padding: 15px;
   }
+}
