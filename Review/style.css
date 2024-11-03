@@ -159,7 +159,7 @@ form textarea {
 
 /* Submit Button */
 form input[type="submit"] {
-    background-color: #343a40; /* same as nav */
+    background-color: #222; /* same as nav */
     color: white;
     border: none;
     padding: 12px 24px;
