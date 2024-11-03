@@ -135,11 +135,9 @@ form textarea {
 
 /* Base styling for star labels */
 .star-rating label {
-    display: inline-block;
     font-size: 2em;
     color: gray; /* Default star color */
     cursor: pointer;
-    transition: color 0.2s ease-in-out;
 }
 
 /* Hover effect: highlight the current and all previous stars */
