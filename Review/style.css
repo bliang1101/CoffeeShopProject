@@ -88,7 +88,6 @@ form {
 
 form div {
     margin-bottom: 1em;
-
 }
 
 form label {
@@ -103,7 +102,7 @@ form textarea {
     border: 1px solid #d7ccc8;
     border-radius: 5px;
     background-color: #fff3e0; /* Light beige */
-    color: #5d4037;
+    color: ##3e2723; /* Dark brown */
     font-size: 1em;
     outline: none;
 }
@@ -121,10 +120,8 @@ form textarea {
 }
 
 #star-text{
-    color: #5d4037;
+    color: ##3e2723; /* Dark brown */
     font-weight: bold;
-    font-size: 1em;
-	
 }
 .star-rating input[type="radio"] {
     display: none; /* Hides the radio buttons */
