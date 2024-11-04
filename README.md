@@ -30,7 +30,8 @@ Place an Order: Add items to your cart and proceed to checkout.
 website layout to provide a visual guide -
 [Coffee WireFrame](https://github.com/user-attachments/assets/a13f4d7c-4b70-4e00-b0e2-2aaae8da6348)
 
-Contributors:
+## Contributors: Tanzila Rahman, Araceli Castelan, Mudabir Rizvi, Theodore Amanatidis, Brian Liang.
+
 This project was created by a team of five developers.
 Each contributing to different aspects of design, development, and content
 
